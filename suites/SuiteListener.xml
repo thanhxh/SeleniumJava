@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Listener" verbose="1">
+
+
+    <test name="Regression Parallel EDGE" parallel="methods">
+
+        <classes>
+            <class name="com.thanh.testcases.LearnTestListener"/>
+        </classes>
+    </test>
+
+</suite>
